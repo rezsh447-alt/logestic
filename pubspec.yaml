@@ -1,5 +1,5 @@
 name: logistics_app
-description: "مدیریت بسته‌ها با نقشه نشن"
+description: "مدیریت بسته‌ها با نقشه و مسیریابی نشن"
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -11,9 +11,10 @@ dependencies:
     sdk: flutter
   hive_flutter: ^1.1.0
   mobile_scanner: ^4.0.1
-  neshan_flutter: ^0.1.4
   geolocator: ^10.0.0
   http: ^1.1.0
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.0
 
 dev_dependencies:
   flutter_test:
